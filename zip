@@ -1,0 +1,13 @@
+#!/bin/bash
+#bzip2,bunzip-tar-cpio-xz,gzip
+#__________________________________________________________
+# bzip2  for compress: bzip2 namefile --> output--> namefile.bz  
+# after compress bzip2 clear first file
+# for unzip namefile.bz : bzip2 -d namefile.bz
+#_________________________________________________________
+#xz for compress file--> xz -z namefie or xz --compress namefile: outoput namefile.xz
+# for unzip: unxz namefile.xz or xz -d namfile.xz  
+#______________________________________________________________
+#gzip for compress: gzip nameflie output-> namefile.gz
+#for unzip : gunzip namefile.gz
+

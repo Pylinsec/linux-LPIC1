@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#______________tar_________________________
+#tar : for create file   tar -cf all.tar dumy   
+#tar tf all.tar  show inside of all.tar
+# tar -xvf all.tar  for extract 
+# tar -zcvf all.tar dumy make tarfile and zip it
+# tar -zxvf all.tar.zip    and for extracting
+#___________________cpio__________________
+#make backup   cpio -o <input filename>output filename
+#extract file  cpio -i < filename.cpio
+# show insid file cpio    cpio -t < filename.cpio
+# extract in specific path  cpio -p <destination> < filename.cpio
+

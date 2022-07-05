@@ -1,0 +1,9 @@
+#!/bin/bash
+#grep  this command is for search string in file and return line that contain it
+#grep str file.txt 
+#____________________________________
+# grep method
+#1- grep ^str file.txt  search in line and return lines with string that start with s#tr
+#2 grep str$ file.txt return line that match words end with str
+#3-grep str file.txt|grep -v  return not(grep str file.txt)
+grep ^aB file.txt|grep BB$ 
